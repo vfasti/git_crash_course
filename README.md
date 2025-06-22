@@ -28,6 +28,8 @@ git init <directory>    # Initialize a new Git repository
 git clone <repository>  # Clone an existing repository
 ```
 
+After you have a repository, you can start tracking changes to files. Here are some basic commands to get you started:
+
 ```cmd
 git add <file>          # Stage changes for commit
 git commit -m "message" # Commit staged changes with a message
