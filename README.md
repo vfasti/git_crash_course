@@ -68,12 +68,13 @@ At first you need an  account on one of these platforms.
 After that, you can create a new repository and clone it to your local machine. You can also create a new repository on your local machine and push it to a remote platform. Here are some commands to manage remote repositories:
 
 ```cmd
-git remote add <name> <url>    # Add a remote repository
-git remote -v                  # List remote repositories
-git push <remote> <branch>     # Push changes to a remote repository
-git pull <remote> <branch>     # Fetch and merge changes from a remote repository
-git fetch <remote>             # Fetch changes from a remote repository
-git remote remove <name>       # Remove a remote repository
+git remote add <name> <url>       # Add a remote repository
+git remote --set-url <name> <url> # Change the URL of a remote repository
+git remote -v                     # List remote repositories
+git push <remote> <branch>        # Push changes to a remote repository
+git pull <remote> <branch>        # Fetch and merge changes from a remote repository
+git fetch <remote>                # Fetch changes from a remote repository
+git remote remove <name>          # Remove a remote repository
 ```
 
 ## Git Collaboration
