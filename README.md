@@ -14,7 +14,7 @@ Download git: [Download](https://git-scm.com/downloads)
 
 ```cmd
 git config --global user.name "your_username"
-git config --global useremail "your_email"
+git config --global user.email "your_email"
 ```
 
 ## Git Introduction
